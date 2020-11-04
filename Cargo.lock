@@ -71,6 +71,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "single-link-list"
+version = "0.1.0"
+
+[[package]]
 name = "skip-list"
 version = "0.1.0"
 dependencies = [

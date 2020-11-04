@@ -1,4 +1,5 @@
 [workspace]
 members = [
-    "skip-list"
+    "skip-list",
+    "single-link-list",
 ]

@@ -95,6 +95,7 @@ impl SkipList {
             None => {}
         }
     }
+    
     fn find(&self, offset: u64) -> Option<String> {
         match self.head {
             Some(ref head) => {
@@ -108,6 +109,7 @@ impl SkipList {
                     }
                     start_level -= 1;
                 }
+
                 let mut n = node;
                 for level in (0..=start_level).rev() {
                     loop {
@@ -136,6 +138,7 @@ impl SkipList {
     }
 }
 
+//// https://www.jianshu.com/p/9d8296562806
 fn main() {
     let mut skip_list = SkipList::new(6);
     skip_list.append(1, "hello".to_owned());

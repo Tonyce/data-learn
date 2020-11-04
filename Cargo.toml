@@ -2,4 +2,5 @@
 members = [
     "skip-list",
     "single-link-list",
+    "double-link-list",
 ]
